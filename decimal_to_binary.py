@@ -1,3 +1,4 @@
+# function to convert a decimal number to binary
 def decimal_to_binary(num):
     binary = ""
     number = num
@@ -11,7 +12,7 @@ def decimal_to_binary(num):
         number = number // 2
 
     return binary
-
+# main program
 num = int(input("Enter a decimal number: "))
 result = decimal_to_binary(num)
 print("The number in binary is",result)
